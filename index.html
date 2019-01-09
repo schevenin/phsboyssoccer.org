@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PHS</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+  <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+  <div class="site">
+    <div class="site-loader _multi-circle-line">
+      <div class="site-loader-spinner"></div>
+    </div> <!-- .site-loader -->
+
+    <div class="site-bg">
+      <div class="site-bg-img"></div>
+      <div class="site-bg-video"></div>
+      <div class="site-bg-overlay"></div>
+      <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+      <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+      <div class="site-bg-border"></div>
+    </div> <!-- .site-bg -->
+
+    <div class="site-canvas">
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header-header">
+            <div class="site-header-brand">
+              <a href="/">
+                <img class="site-header-logo" src="assets/img/site-header-logo.png" alt="Pioneer Boys Soccer">
+                <img class="site-header-logo-invert" src="assets/img/site-header-logo-invert.png" alt="">
+              </a>
+            </div>
+            <a class="primary-nav-toggle" href="#">
+              <i class="fa fa-navicon"></i>
+            </a>
+          </div>
+          <div class="site-header-main">
+            <nav class="primary-nav">
+              <div class="primary-menu-container">
+                <ul class="primary-menu">
+                  <li class="primary-menu-item is-active" data-section="#home">
+                    <a href="#" data-hover="Home"><span>Home</span></a> <!-- set `data-hover` same as the link text -->
+                  </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                  <li class="primary-menu-item" data-section="#about">
+                    <a href="#" data-hover="About"><span>About</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#service">
+                    <a href="#" data-hover="Support Us"><span>Support Us</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#apparel">
+                    <a href="#" data-hover="Purchase"><span>Apparel</span></a>
+                    </li>  
+                  <li class="primary-menu-item" data-section="#contact">
+                    <a href="#" data-hover="Contact"><span>Contact</span></a>                                      
+                  </li>
+                  <li class="primary-menu-item" data-section="#social">
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header> <!-- .site-header -->
+      <main class="site-main">
+        <div id="nav" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- for `> md` screen, control with `#nav` id -->
+
+        <div id="social" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="social-menu-container">
+                        <ul class="social-menu">
+                          <li class="social-item">
+                            <a href="https://www.facebook.com/PHS-Boys-Soccer-Booster-Club-1484354868532887/" target="_blank">
+                              <i class="fa fa-facebook-square"></i>
+                              <span>Facebook</span>
+                            </a> <!-- social link -->
+                          </li>
+                          <li class="social-item">
+                            <a href="https://www.instagram.com/phsboyssoccerbooster/" target="_blank">
+                              <i class="fa fa-instagram"></i>
+                              <span>Instagram</span>
+                            </a> <!-- social link -->
+                          </li>
+                          <li class="social-item">
+                            <a href="https://twitter.com/boysbooster" target="_blank">
+                              <i class="fa fa-twitter-square"></i>
+                              <span>Twitter</span>
+                            </a> <!-- social link -->
+                          </li>                                                       
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="home" class="section is-active">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                        <h2 class="section-title">WELCOME</h2>
+                      <p>
+                        Pioneer High School Boys Soccer Booster Club
+                        <br>
+                        Patriots lead the way!
+                        <br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="section-subtitle">PHS • Soccer • Fundraising</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-inner">
+                      <p><span class="first-letter">T</span>he Pioneer Boys Soccer Booster Club is a charitable, non-profit, fully recognized 501(c)(3) organization. We are a group of parents, staff and other interested parties whose mission is to enrich the Pioneer High School athletic community and the community at large by providing financial support for the Pioneer High School boys soccer program. The Booster Club was established as a support to encourage parent participation and to raise funds to enhance and expand the soccer program at Pioneer High School. The Booster Club believes strongly that parent involvement during the high school years can be a key to the success of the individual student. In addition to financial support, the Booster Club recognizes that participation in high school athletics benefits everyone, and the Booster Club promotes opportunities to build and strengthen relationships among all involved: the student body, Pioneer High School staff, parents, and the community. Money will be raised through memberships and fundraising activities. Throughout the year, the Booster Club plans to organize a dinner, concessions at athletic events, and to sell specialty products. All members of the Pioneer community are invited and encouraged to become part of the Booster Club and our activities.</p>
+                    </div>
+                  </div>
+                  <div style="padding:5px" align="right">
+                      <a class="btn btn-default hidden-xs hidden-sm" href="https://www.facebook.com/PHS-Boys-Soccer-Booster-Club-1484354868532887/" data-section="#" target="_blank">
+                        <span align="center">Facebook Page</span>
+                      </a> <!-- button link to section, edit the `data-section` to be section id -->
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <div id="service" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="serviceCarousel" class="owl-carousel">
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cutlery"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Fundraising</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p><strong>Soccer Fiesta</strong>:
+                              <br>
+                              Saturday, February 9th, 2019
+                              <br>
+                              Yolo County Fairgrounds
+                              <br>
+                              John Rogers Hall
+                              <br>
+                              6:00-11:00 P.M
+                            </p>
+                          </div>
+                          <div style="padding:10px">
+                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="7NNZTUJCX9N2A">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Patriot Apparel</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p><strong>Show your Patriot Pride!</strong>
+                              <br>
+                              Purchase Patriot Apparel
+                              <br>
+                              using the link below
+                              <br>
+                              Shirts, Hoodies, Trainer Pants, etc!
+                              <br>
+                            </p>
+                            <a style="font-size: 22px; color: gold" data-section="#apparel"><strong>Visit Shop</strong></a>
+                            <!-- <img src="/assets/img/apparel-icon-transparent.png" styles="background-color: none"/> -->
+                          </div>
+                        </div> <!-- .iconbox -->
+                        
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-paypal"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Donate</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p><strong>Support the team!</strong><br>Donations can be made<br>through our PayPal<br>donation link below.<br>Donations are tax deductible.</p>
+                          </div>
+                          <div style="padding:10px">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick" />
+                            <input type="hidden" name="hosted_button_id" value="2C59UK2ADMRDS" />
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                            </form>
+                          </div>
+                        </div> <!-- .iconbox -->                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="apparel" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="apparelCarousel" class="owl-carousel">
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cart-plus"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>T-Shirt</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <img src="/assets/img/apparel-icon-tshirt.png">
+                            <div style="padding:10px; text-align: center;">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="3CAMSQH3W5XGQ">
+                            <table style="margin-left:auto; margin-right:auto;">
+                                <tr>
+                                    <td>
+                                        <input type="hidden" name="on0" value="Sizes">Sizes</input>
+                                    </td>
+                                </tr>
+                               <tr>
+                                   <td>
+                                       <select style="color: black" name="os0">
+                                            <option value="Youth S">Youth S $14.00 USD</option>
+                                            <option value="Youth M">Youth M $14.00 USD</option>
+                                            <option value="Youth L">Youth L $14.00 USD</option>
+                                            <option value="Youth XL">Youth XL $14.00 USD</option>
+                                            <option value="Adult XS">Adult XS $14.00 USD</option>
+                                            <option value="Adult S">Adult S $14.00 USD</option>
+                                            <option value="Adult M">Adult M $14.00 USD</option>
+                                            <option value="Adult L">Adult L $14.00 USD</option>
+                                            <option value="Adult XL">Adult XL $14.00 USD</option>
+                                            <option value="Adult 2X">Adult 2X $14.00 USD</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                          </div>
+                          </div>
+                          
+                        </div> <!-- .iconbox -->
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cart-plus"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Hoodie</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <img src="/assets/img/apparel-icon-hoodie.png">
+                          </div>
+                          <div style="padding:10px">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="5XAE5R7YNSBTG">
+                                <table style="margin-left:auto; margin-right:auto;">
+                                <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select style="color: black" name="os0">
+                                    <option value="Youth S">Youth S $30.00 USD</option>
+                                    <option value="Youth M">Youth M $30.00 USD</option>
+                                    <option value="Youth L">Youth L $30.00 USD</option>
+                                    <option value="Youth XL">Youth XL $30.00 USD</option>
+                                    <option value="Adult XS">Adult XS $30.00 USD</option>
+                                    <option value="Adult S">Adult S $30.00 USD</option>
+                                    <option value="Adult M">Adult M $30.00 USD</option>
+                                    <option value="Adult L">Adult L $30.00 USD</option>
+                                    <option value="Adult XL">Adult XL $30.00 USD</option>
+                                    <option value="Adult 2X">Adult 2X $30.00 USD</option>
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                          </div>
+                        </div> <!-- .iconbox -->
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cart-plus"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Pullover</h4>
+                          </div>
+                          <div class="iconbox-content">
+                          <img src="/assets/img/apparel-icon-pullover.png">
+                           <div style="padding:10px">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="ACD4YAREL5WHG">
+                                <table style="margin-left:auto; margin-right:auto;">
+                                <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select style="color: black" name="os0">
+                                    <option value="Adult XS">Adult XS $39.00 USD</option>
+                                    <option value="Adult S">Adult S $39.00 USD</option>
+                                    <option value="Adult M">Adult M $39.00 USD</option>
+                                    <option value="Adult L">Adult L $39.00 USD</option>
+                                    <option value="Adult XL">Adult XL $39.00 USD</option>
+                                    <option value="Adult 2X">Adult 2X $39.00 USD</option>
+                                    <option value="Adult 2X">Adult 3X $39.00 USD</option>                                    
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                          </div>
+                          </div>
+                        </div> <!-- .iconbox -->
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cart-plus"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Trainer Pants</h4>
+                          </div>
+                          <div class="iconbox-content">
+                          <img src="/assets/img/apparel-icon-trainer.png">
+                           <div style="padding:10px">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="FDZJZX6L9R7DC">
+                                <table style="margin-left:auto; margin-right:auto;">
+                                <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select style="color: black" name="os0">
+                                    <option value="Adult XS">Adult XS $39.00 USD</option>
+                                    <option value="Adult S">Adult S $39.00 USD</option>
+                                    <option value="Adult M">Adult M $39.00 USD</option>
+                                    <option value="Adult L">Adult L $39.00 USD</option>
+                                    <option value="Adult XL">Adult XL $39.00 USD</option>
+                                    <option value="Adult 2X">Adult 2X $39.00 USD</option>
+                                    <option value="Adult 2X">Adult 3X $39.00 USD</option>                                    
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                          </div>
+                          </div>
+                        </div> <!-- .iconbox -->                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div id="contact" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">• Email us!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-5 m-t-30-sm-max">
+                    <div class="col-inner">                  
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-pencil"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Email Address</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            president@phsboyssoccer.org
+                            <br>
+                            contact@phsboyssoccer.org
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-map-pin"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>School address</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            1400 Pioneer Avenue,
+                            <br>
+                            Woodland, CA 95776
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main> <!-- .site-main -->
+    </div>
+  </div>
+
+  <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/plugin.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+</body>
+</html>
